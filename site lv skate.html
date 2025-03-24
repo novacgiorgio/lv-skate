@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lv Skate Sneaker</title>
+        <style>
+            body {
+                background-color: #f5f1ec;
+                color: #333;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                padding: 20px;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .titlu {
+                font-size: 2.8rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                color: #a67c52;
+                margin-bottom: 20px;
+            }
+            
+            .imaginea {
+                width: 350px;
+                border-radius: 15px;
+                box-shadow: 0 15px 40px rgba(166, 124, 82, 0.5);
+                transition: transform 0.3s, box-shadow 0.3s;
+            }
+
+            .imaginea:hover {
+                transform: scale(1.08);
+                box-shadow: 0px 25px 50px rgba(166, 124, 82, 0.7);
+            }
+            
+            .pret {
+                font-size: 2rem;
+                font-weight: 700;
+                color: #a67c52;
+                margin-top: 25px;
+            }
+
+            .container-marimile {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                margin-top: 15px;
+            }
+            .marimile {
+                color: #a67c52;
+                border: 2px solid #a67c52;
+                cursor: pointer;
+                background-color: white;
+                width: 85px;
+                height: 45px;
+                font-weight: bold;
+                border-radius: 25px;  
+                font-size: 1.1rem;
+                transition: transform 0.3s, background-color 0.3s;
+            }
+
+            .marimile:hover {
+                transform: scale(1.1);
+                background-color: #a67c52;
+                color: white;
+            }
+
+            .container-butoane {
+                display: flex;
+                margin-top: 30px;
+                justify-content: center;
+                gap: 25px;
+            }
+
+            .cumpara-acum, .adauga-in-cos {
+                color: white;
+                font-weight: bold;
+                border: none;
+                width: 160px;
+                height: 55px;
+                border-radius: 30px;
+                font-size: 1.1rem;
+                transition: transform 0.3s, background-color 0.3s;
+                cursor: pointer;
+            }
+            
+            .cumpara-acum {
+                background-color: #a67c52;
+            }
+            
+            .cumpara-acum:hover {
+                transform: scale(1.1);
+                background-color: #8c6843;
+            }
+
+            .adauga-in-cos {
+                background-color: #222;
+            }
+            
+            .adauga-in-cos:hover {
+                transform: scale(1.1);
+                background-color: #111;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="titlu">Lv Skate Sneaker</h1>
+        <img class="imaginea" src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker--BO9U3PMI31_PM2_Front%20view.png?wid=1440&hei=1440">
+        <p class="pret">6400 lei</p>
+        <div class="container-marimile">
+            <button class="marimile">40</button>
+            <button class="marimile">41</button>
+            <button class="marimile">42</button>
+            <button class="marimile">43</button>
+            <button class="marimile">44</button>
+            <button class="marimile">45</button>
+        </div>
+        <div class="container-butoane">
+            <button class="cumpara-acum">Cumpără acum</button>
+            <button class="adauga-in-cos">Adaugă în coș</button>
+        </div>
+    </body>
+</html>
+
